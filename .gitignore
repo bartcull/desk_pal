@@ -1,0 +1,6 @@
+/.bundle
+/log/*.log
+/tmp
+.DS_Store
+Guardfile
+.console_history
