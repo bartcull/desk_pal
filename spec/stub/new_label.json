@@ -1,0 +1,19 @@
+HTTP/1.1 201 Created
+Accept-Ranges: bytes
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Thu, 20 Mar 2014 18:52:22 GMT
+ETag: "662f38400603649f2dc6353f56347548"
+Location: https://cullimore.desk.com/api/v2/labels/1709045
+Status: 201 Created
+Vary: X-AppVersion
+X-AppVersion: 15.99
+X-Frame-Options: SAMEORIGIN
+X-Rate-Limit-Limit: 60
+X-Rate-Limit-Remaining: 59
+X-Rate-Limit-Reset: 38
+X-Request-Id: 2e9dad66a354eed1d6004d9cb42c13a9
+Content-Length: 156
+Connection: keep-alive
+
+{"name":"test6","description":"test6","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1709045","class":"label"}}}

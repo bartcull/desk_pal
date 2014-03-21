@@ -1,0 +1,29 @@
+<h1>Active labels</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Types</th>
+      <th>Color</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @labels.each do |label| %>
+      <tr>
+        <td><%= label["name"] %></td>
+        <td><%= label["description"] %></td>
+        <td><%= label["types"] * ', ' %></td>
+        <td><%= label["color"] %></td>
+        <td><%= link_to 'Disable', label_path(Label.link_id(label)), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Label', new_label_path %>

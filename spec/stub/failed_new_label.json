@@ -1,0 +1,17 @@
+HTTP/1.1 422 Unprocessable Entity
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Thu, 20 Mar 2014 18:53:14 GMT
+Status: 422 Unprocessable Entity
+Vary: X-AppVersion
+X-AppVersion: 15.99
+X-Frame-Options: SAMEORIGIN
+X-Rate-Limit-Limit: 60
+X-Rate-Limit-Remaining: 59
+X-Rate-Limit-Reset: 46
+X-Request-Id: dd5c30852459796429a76490e0a5e11b
+Content-Length: 59
+Connection: keep-alive
+
+{"message":"Validation Failed","errors":{"name":["taken"]}}

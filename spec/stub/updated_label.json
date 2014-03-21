@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Thu, 20 Mar 2014 19:30:31 GMT
+ETag: "67f84300bfaf2bdd30133675f3f2744d"
+Server: nginx
+Status: 200 OK
+Vary: X-AppVersion
+X-AppVersion: 15.99
+X-Frame-Options: SAMEORIGIN
+X-Rack-Cache: invalidate, pass
+X-Rate-Limit-Limit: 60
+X-Rate-Limit-Remaining: 59
+X-Rate-Limit-Reset: 29
+X-Request-Id: d2b262995b5497207745a270780a1d00
+X-Runtime: 0.447791
+X-UA-Compatible: IE=Edge,chrome=1
+Content-Length: 156
+Connection: keep-alive
+
+{"name":"test5","description":"test5","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708224","class":"label"}}}

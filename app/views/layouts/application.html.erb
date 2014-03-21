@@ -8,7 +8,25 @@
 </head>
 <body>
 
-<%= yield %>
+  <div id="user_nav">
+    <%= link_to "View cases available in the first case filter", cases_path %><br/>
+    <%= link_to "View available labels", labels_path %><br/>
+    <%= link_to "Create a label called “prove it”", labels_path({ label: { name: 'prove it', description: "prove it", types: ["case"], color:"default" } }), method: :post %><br/>
+    <%= link_to "Assign the “prove it” label to the first case in the case filter", update_label_path(label_name: 'prove it'), method: :patch %><br/>
+  </div>
+
+  <div class="flash">
+      <%- if !notice.nil? -%>
+      <p class="notice"><%= notice %></p>
+      <%- end -%> 
+      <%- if !alert.nil? -%>
+      <p class="alert"><%= alert %></p>
+      <%- end -%>     
+  </div>
+  
+  <div>
+    <%= yield %>
+  </div>
 
 </body>
 </html>

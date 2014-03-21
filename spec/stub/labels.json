@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache, private
+Content-Type: application/json; charset=utf-8
+Date: Thu, 20 Mar 2014 17:25:12 GMT
+ETag: "13953301248578506"
+Status: 200 OK
+Vary: X-AppVersion
+X-AppVersion: 15.99
+X-Frame-Options: SAMEORIGIN
+X-Rate-Limit-Limit: 60
+X-Rate-Limit-Remaining: 59
+X-Rate-Limit-Reset: 48
+X-Request-Id: 5676b68be1dfc11541fb118b6d3a3db0
+Content-Length: 2455
+Connection: keep-alive
+
+{"total_entries":13,"_links":{"self":{"href":"/api/v2/labels?page=1&per_page=50","class":"page"},"first":{"href":"/api/v2/labels?page=1&per_page=50","class":"page"},"last":{"href":"/api/v2/labels?page=1&per_page=50","class":"page"},"previous":null,"next":null},"_embedded":{"entries":[{"name":"Abandoned Chats","description":"Abandoned Chats","enabled":true,"types":["case","macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700207","class":"label"}}},{"name":"Escalated","description":"Escalated","enabled":true,"types":["case","macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700206","class":"label"}}},{"name":"Example","description":"Example","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700204","class":"label"}}},{"name":"Feedback","description":"Feedback","enabled":true,"types":["case","macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700202","class":"label"}}},{"name":"More Info","description":"More Info","enabled":true,"types":["case","macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700203","class":"label"}}},{"name":"Negative Feedback","description":"Negative Feedback","enabled":true,"types":["case","macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700205","class":"label"}}},{"name":"prove it","description":"prove it","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708185","class":"label"}}},{"name":"Sample Macros","description":"Sample Macros","enabled":true,"types":["macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1700201","class":"label"}}},{"name":"test","description":"test","enabled":false,"types":[],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708134","class":"label"}}},{"name":"test1","description":"test1","enabled":true,"types":["macro"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708227","class":"label"}}},{"name":"test3","description":"test3","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708214","class":"label"}}},{"name":"test4","description":"test4","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708215","class":"label"}}},{"name":"test5","description":"test5","enabled":true,"types":["case"],"color":"default","_links":{"self":{"href":"/api/v2/labels/1708224","class":"label"}}}]}}
